@@ -8,5 +8,13 @@
     <h4>{{ post.subtitle }}</h4>
     <h4>Posted by: {{ post.author }} on {{ post.created_on }}</h4>
     <p> {{ post.body }}</p>
+    <div class="row">
+        <div class="col-auto">
+            <a href="{% url 'edit' post.id %}" class="btn btn-primary">Edit</a>
+        </div>
+        <div class="col-auto">
+            <a href="{% url 'delete' post.id %}" class="btn btn-danger">Delete</a>
+        </div>
+    </div>
 </div>
 {% endblock content %}
