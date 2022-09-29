@@ -3,6 +3,7 @@ This project presents a page based off a local newspaper. It has a home page, an
 
 ## Heroku
 https://aqueous-taiga-52238.herokuapp.com/
+https://git.heroku.com/aqueous-taiga-52238.git
 
 ## Mini Challenge 1 (class 4)
 
